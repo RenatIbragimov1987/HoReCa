@@ -9,9 +9,7 @@ export default function TizersList() {
     <div className="tizers">
       <div className="tizers__block">
         <img className="tizers__img" src={delivery} alt="pic" />
-        <div>
-          <p className="tizers__text">Быстрая доставка</p>
-        </div>
+        <p className="tizers__text">Быстрая доставка</p>
       </div>
       <div className="tizers__block">
         <img className="tizers__img" src={customerService} alt="pic" />
