@@ -8,7 +8,7 @@ import nude from '../../images/banners/nude.jpg';
 function Banners() {
   return (
     <div className="bannersBlock">
-      <div className='block'>
+      <div className='bannersBlock__wrapper'>
 				<div><span className='bannersBlock__title'>Посуда</span></div>
         <div className="bannersBlock__img">
           <img className="bannersBlock__pic" src={dishes} alt="img" />
@@ -16,14 +16,14 @@ function Banners() {
         
       </div>
 			
-      <div className='block'>
+      <div className='bannersBlock__wrapper'>
 				<div><span className='bannersBlock__title'>Стекло</span></div>
         <div className="bannersBlock__img">
           <img className="bannersBlock__pic" src={nude} alt="img" />
         </div>
         
       </div>
-      <div className='block'>
+      <div className='bannersBlock__wrapper'>
 				<div><span className='bannersBlock__title'>Кухонный инвентарь</span></div>
         <div className="bannersBlock__img">
           <img className="bannersBlock__pic" src={kitchen} alt="img" />
@@ -31,7 +31,7 @@ function Banners() {
         
       </div>
 
-      <div className='block'>
+      <div className='bannersBlock__wrapper'>
 				<div><span className='bannersBlock__title'>Барный инвентарь</span></div>
         <div className="bannersBlock__img">
           <img className="bannersBlock__pic" src={bar} alt="img" />

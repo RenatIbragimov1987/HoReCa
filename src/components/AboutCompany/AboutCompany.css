@@ -2,28 +2,34 @@
 	display: flex;
   max-width: 1500px;
   width: 100%;
+	margin-top: 50px;
 }
 
 .aboutCompany__block {
   align-items: center;
-  padding: 20px;
+	padding: 0;
+  padding-right: 20px;
 }
-
 .aboutCompany__title {
+	text-align: start;
+	font-size: 28px;
+}
+.aboutCompany__subtitle {
   max-width: 700px;
   width: 100%;
   text-indent: 30px;
-  border-radius: 10px;
   text-align: justify;
 	margin: 0;
-	padding-top: 40px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-bottom: 1.5px solid rgba(238, 159, 56);
 }
 
 .aboutCompany__img {
 
 	max-width: 1000px;
 	width: 100%;
-	padding: 20px 0 0 20px;
+	/* padding: 20px 0 0 20px; */
 	 display: flex;
 	 flex-wrap: wrap;
 	 justify-content: space-between;
