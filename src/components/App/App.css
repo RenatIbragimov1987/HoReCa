@@ -1,6 +1,9 @@
 .App {
-	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  align-items: center;
   min-height: 100vh;
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
 }

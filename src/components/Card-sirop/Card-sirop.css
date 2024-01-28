@@ -1,0 +1,51 @@
+.cardSirop {
+	max-width: 180px;
+	width: 100%;
+	max-height: 260px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px;
+	list-style-type: none;
+	position: relative;
+}
+
+.cardSirop__card {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	/* width: 100px; */
+	
+	max-height: 260px;
+	/* object-fit: cover; */
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+}
+.element__card:hover {
+	opacity: 85%;
+}
+
+.cardSirop__info {
+	max-width: 246px;
+	max-height: 79px;
+	display: flex;
+	margin: 0 20px 0 21px;
+	justify-content: space-between;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	
+}
+
+.cardSirop__title {
+  max-width: 246px;
+  font-style: black;
+	font-weight: 900;
+  color: #000;
+  line-height: 29px;
+  font-size: 24px;
+	padding-top: 25px;
+  padding-bottom: 31px;
+  margin: 0;
+  flex: 1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

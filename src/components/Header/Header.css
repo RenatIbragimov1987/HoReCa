@@ -1,0 +1,97 @@
+.header__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #f5f5f5;
+	padding-top: 10px;
+}
+
+.header {
+  color: #777777;
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  max-width: 1500px;
+  width: 100%;
+  max-height: 55px;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.header__logo-wrapper {
+  width: 160px;
+  height: 53px;
+}
+
+.header__logo {
+  width: 160px;
+  height: 53px;
+  transition: opacity 0.6s;
+}
+
+.header__logo:hover {
+  opacity: 0.6;
+}
+
+.header__menu {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header__nav {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 10px;
+  color: #000000;
+  transition: color 0.2s linear;
+}
+
+.header__nav:hover {
+  color: rgba(249, 62, 160, 1);
+  transition: color 0.2s linear;
+}
+
+.header__phones-wrapper {
+  min-height: 62px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header__connection {
+  max-width: 200px;
+  width: 100%;
+  min-height: 21px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.2s linear;
+}
+
+.header__contact {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: -30px;
+}
+
+.header__connection:hover {
+  color: rgba(249, 62, 160, 1);
+  transition: color 0.1s linear;
+}
+
+nav .active {
+ color: rgba(249, 62, 160, 1);
+}

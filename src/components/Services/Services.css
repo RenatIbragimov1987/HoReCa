@@ -1,0 +1,30 @@
+.services {
+  max-width: 1500px;
+  width: 100%;
+  margin-top: 50px;
+  /* margin: 0 auto; */
+  text-align: start;
+  /* background-color: #e7e1e1; */
+}
+
+.services__title {
+  font-size: 28px;
+}
+
+.services__subtitle {
+	font-weight: normal;
+	font-style: normal;
+  font-size: 20px;
+	line-height: 23px;
+	margin-top: 30px;
+}
+
+.services__text {
+	font-weight: normal;
+	font-style: normal;
+  font-size: 17px;
+	line-height: 24px;
+	margin: 0;
+	padding-bottom: 20px;
+	border-bottom: 1.5px solid rgba(238, 159, 56);
+}

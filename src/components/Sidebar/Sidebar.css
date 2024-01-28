@@ -1,0 +1,30 @@
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  max-width: 35px;
+  width: 100%;
+  margin: 0 10px;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+	z-index: 99;
+}
+.sideBar__nav {
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.sideBar__icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 11px;
+	transition: width, height, 0.2s linear;;
+}
+
+.sideBar__icon:hover {
+	width: 40px;
+  height: 40px;
+	transition: width, height, 0.2s linear;
+}

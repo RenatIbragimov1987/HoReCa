@@ -1,6 +1,31 @@
 .main {
-	font-family: 'Inter', Arial, sans-serif;
-  color: #000000;
-  background-color:  #FAFAFA;
-	flex: 1 1 auto;
+	color: #000000;
+  max-width: 1500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+}
+
+/* .main__swapper {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+} */
+.main__title{
+	font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	
 }

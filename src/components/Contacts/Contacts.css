@@ -1,0 +1,123 @@
+.contacts {
+	color: #000000;
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+.contacts__title {
+  font-size: 28px;
+  margin: 0;
+	margin-top: 50px;
+	text-align: start;
+}
+
+.contacts__paragraf {
+  max-width: 500px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding-top: 30px;
+	padding-bottom: 30px;
+  text-align: center;
+  justify-self: start;
+}
+.contacts__wrapper {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__block {
+  max-width: 280px;
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(238, 159, 56);
+  border-radius: 15%;
+}
+
+.contacts__logo {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 0;
+  border-radius: 20%;
+  box-shadow: 0 0 3px rgb(238, 159, 56);
+}
+.contacts__img_dec {
+  width: 36px;
+  height: 36px;
+}
+.contacts__link {
+  min-height: 21px;
+  color: #000000;
+  text-decoration: none;
+  padding-top: 15px;
+}
+.contacts__card-name {
+  margin-top: 15px;
+}
+.contacts__time {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.contacts__adress {
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  width: 100%;
+  align-items: center;
+	margin-top: 10px;
+}
+.contacts__text {
+  max-width: 220px;
+  width: 100%;
+	font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+	margin: 0 auto;
+	text-align: start;
+}
+.contacts__maps {
+  width: 25px;
+  height: 25px;
+}
+
+.contacts__subtitle {
+	font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+.contacts__block-network {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+	margin-top: 20px;
+}
+.contacts__network {
+  max-width: 40px;
+  width: 100%;
+  height: 40px;
+}
+
+.contacts__network-log {
+  width: 40px;
+  height: 40px;
+  transition: width, height, 0.1s linear;
+}
+
+.contacts__network-log:hover {
+  width: 42px;
+  height: 42px;
+  transition: width, height, 0.1s linear;
+}
