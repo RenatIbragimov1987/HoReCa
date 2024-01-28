@@ -9,6 +9,7 @@
   border-bottom: 1px solid #f5f5f5;
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-top: 10px;
 }
 
 .header {
@@ -21,11 +22,15 @@
   justify-content: space-between;
   flex: 1 1 auto;
 	flex-wrap: wrap;
-
   align-items: center;
   text-align: center;
 }
-
+@media screen and (max-width: 740px) {
+  .header {
+		flex-direction: column;
+		align-items: start;
+  }
+}
 .header__logo-wrapper {
   width: 160px;
   height: 53px;
@@ -46,12 +51,35 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-	flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-
+@media screen and (max-width: 1220px) {
+  .header__menu {
+		max-width: 500px;
+  	width: 100%;
+  }
+}
+@media screen and (max-width: 860px) {
+  .header__menu {
+		max-width: 400px;
+  	width: 100%;
+	align-items: center;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 740px) {
+  .header__menu {
+		display: flex;
+		max-width: 700px;
+  	width: 100%;
+		justify-content: start;
+		padding-top: 20px;
+		padding-bottom: 20px;
+  }
+}
 .header__nav {
   text-decoration: none;
   font-weight: 400;
@@ -73,6 +101,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+@media screen and (max-width: 740px) {
+  .header__phones-wrapper {
+		max-width: 400px;
+		width: 100%;
+		margin-left: 40px;
+		min-height: 65px;
+  height: 100%;
+  }
 }
 
 .header__connection {
