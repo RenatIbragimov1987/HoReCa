@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Header from '../Header/Header';
 import Sidebar from '../Sidebar/Sidebar';
@@ -22,6 +23,8 @@ function App() {
 }
 
 function AppContent() {
+	
+	
   const location = useLocation();
   const isContactsPage = location.pathname === '/contacts';
 

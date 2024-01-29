@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
+import { useState, useEffect } from 'react';
 // import { Carousel } from 'react-bootstrap';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
@@ -26,6 +27,37 @@ import sunex from '../../images/sliderBrandBottom/sunex.webp';
 import vidivi from '../../images/sliderBrandBottom/vidivi.webp';
 
 export default function SliderBrandBottom() {
+	const [width, setWidth] = useState(window.innerWidth);
+	const [resp, setResp] = useState({});
+	
+	useEffect(() => {
+    const handleResize = (event) => {
+      setWidth(event.target.innerWidth);
+    };
+		window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [width]);
+
+  const responsive = {
+    0: { items: 8 },
+    1000: { items: 8 },
+  };
+
+	const res = {
+    0: { items: 4 },
+    1000: { items: 4 },
+  };
+
+	useEffect(() => {
+    if (width >= 1200) {
+			setResp(responsive)
+		} else {
+			setResp(res)
+		}
+  }, [width]);
+
   const items = [
     <img src={aps} className="sliderBrand__log" alt="logo" />,
     <img src={bormioli} className="sliderBrand__log" alt="logo" />,
@@ -49,15 +81,14 @@ export default function SliderBrandBottom() {
     <img src={vidivi} className="sliderBrand__log" alt="logo" />,
   ];
 
-  const responsive = {
-    0: { items: 12 },
-    1000: { items: 12 },
-  };
+	
+
+
   return (
     <div className="sliderBrandBottom">
       <AliceCarousel
         items={items}
-        responsive={responsive}
+        responsive={resp}
         autoPlay={true}
         mouseDragEnabled={true}
         infinite={true}
