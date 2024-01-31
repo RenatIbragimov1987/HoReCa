@@ -32,6 +32,12 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 391px) {
+  .tizers {
+    max-width: 370px;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 320px) {
   .tizers {
     max-width: 320px;
@@ -67,8 +73,10 @@
     justify-content: left;
     gap: 10px;
     text-align: left;
+		
   }
 }
+
 @media screen and (max-width: 320px) {
   .tizers__block {
     max-width: 170px;
@@ -85,6 +93,7 @@
   .tizers__img {
     width: 30px;
     height: 30px;
+		margin-left: 10px;
   }
 }
 
