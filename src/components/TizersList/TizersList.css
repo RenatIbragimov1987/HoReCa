@@ -26,6 +26,12 @@
     margin-top: 0;
   }
 }
+@media screen and (max-width: 431px) {
+  .tizers {
+    max-width: 410px;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 320px) {
   .tizers {
     max-width: 320px;

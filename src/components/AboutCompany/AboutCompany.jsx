@@ -16,9 +16,8 @@ import img12 from '../../images/fotoCompany/photo_9_2024-01-27_22-45-55.jpg';
 export default function AboutCompany() {
   return (
     <div className="aboutCompany">
-			
       <div className="aboutCompany__block">
-			<h1 className="aboutCompany__title">О компании</h1>
+        <h1 className="aboutCompany__title">О компании</h1>
         <p className="aboutCompany__subtitle">
           В HORECA мы предлагаем вам не просто посуду – мы предоставляем
           возможность превратить ваш ресторан, отель или кафе в настоящее
@@ -54,21 +53,28 @@ export default function AboutCompany() {
           неповторимой атмосферы вашего заведения.
         </p>
       </div>
-      <div>
-        <div className="aboutCompany__img">
-          <div className='gallery__item'><img className="gallery__image" src={img1} alt="img" /></div>
-          <div className='gallery__item'><img className="gallery__image" src={img2} alt="img" /></div>
-          <div className='gallery__item'><img className="gallery__image" src={img3} alt="img" /></div>
-          <div className='gallery__item'><img className="gallery__image" src={img4} alt="img" /></div>
-          <div className='gallery__item'><img className="gallery__image" src={img5} alt="img" /></div>
-          <div className='gallery__item'><img className="gallery__image" src={img6} alt="img" /></div>
-					<div className='gallery__item'><img className="gallery__image" src={img9} alt="img" /></div>
-          <div className='gallery__item'><img className="gallery__image" src={img8} alt="img" /></div>
-          <div className='gallery__item'><img className="gallery__image" src={img7} alt="img" /></div>
-          <div className='gallery__item'><img className="gallery__image" src={img10} alt="img" /></div>
-          <div className='gallery__item'><img className="gallery__image" src={img11} alt="img" /></div>
-          <div className='gallery__item'><img className="gallery__image" src={img12} alt="img" /></div>
-        </div>
+
+      <div className="aboutCompany__img">
+        <img
+          className="gallery__image gallery__imageSpan-hed"
+          src={img3}
+          alt="img"
+        />
+        <img className="gallery__image" src={img1} alt="img" />
+        <img className="gallery__image" src={img2} alt="img" />
+        <img className="gallery__image" src={img4} alt="img" />
+        <img className="gallery__image" src={img5} alt="img" />
+        <img className="gallery__image" src={img6} alt="img" />
+        <img className="gallery__image" src={img9} alt="img" />
+        <img className="gallery__image" src={img8} alt="img" />
+        <img className="gallery__image" src={img7} alt="img" />
+        <img className="gallery__image" src={img10} alt="img" />
+        <img className="gallery__image" src={img11} alt="img" />
+        <img
+          className="gallery__image gallery__imageSpan-fut"
+          src={img12}
+          alt="img"
+        />
       </div>
     </div>
   );
