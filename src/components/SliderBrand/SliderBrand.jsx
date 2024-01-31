@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 // import { Carousel } from 'react-bootstrap';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import './SliderBrandBottom.css';
+import './SliderBrand.css';
 import aps from '../../images/sliderBrandBottom/aps.webp';
 import bormioli from '../../images/sliderBrandBottom/bormioli.webp';
 import cristal from '../../images/sliderBrandBottom/cristal.webp';
@@ -26,7 +26,7 @@ import steelite from '../../images/sliderBrandBottom/steelite.webp';
 import sunex from '../../images/sliderBrandBottom/sunex.webp';
 import vidivi from '../../images/sliderBrandBottom/vidivi.webp';
 
-export default function SliderBrandBottom() {
+export default function SliderBrand() {
 	const [width, setWidth] = useState(window.innerWidth);
 	const [resp, setResp] = useState({});
 	
@@ -40,10 +40,12 @@ export default function SliderBrandBottom() {
     };
   }, [width]);
 
+
   const responsive = {
     0: { items: 8 },
     1000: { items: 8 },
   };
+
 
 	const res = {
     0: { items: 4 },
@@ -81,11 +83,8 @@ export default function SliderBrandBottom() {
     <img src={vidivi} className="sliderBrand__log" alt="logo" />,
   ];
 
-	
-
-
   return (
-    <div className="sliderBrandBottom">
+    <div className="sliderBrand">
       <AliceCarousel
         items={items}
         responsive={resp}

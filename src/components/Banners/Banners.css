@@ -1,80 +1,70 @@
 .bannersBlock {
   max-width: 1500px;
   width: 100%;
-  /* max-height: 600px; */
   display: flex;
   justify-content: space-around;
-	flex-wrap: wrap;
-	
+  flex-wrap: wrap;
 }
-/* @media screen and (max-width: 1220px) {
+
+@media screen and (max-width: 980px) {
   .bannersBlock {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 20px;
-		justify-items: center;
-    align-items: center;
-  }
-} */
-@media screen and (max-width: 560px) {
-  .bannersBlock {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
     align-items: center;
   }
 }
+@media screen and (max-width: 320px) {
+  .bannersBlock {
+    max-width: 320px;
+    width: 100%;
+  }
+}
+
 .bannersBlock__wrapper {
-	position: relative;
+  position: relative;
   width: 280px;
   height: 340px;
   border-radius: 15px;
   overflow: hidden;
-	margin: 10px;
+  margin: 10px;
 }
+
 @media screen and (max-width: 1220px) {
   .bannersBlock__wrapper {
-		width: 220px;
-  height: 280px;
-	border-radius: 15px;
+    width: 220px;
+    height: 280px;
+    border-radius: 15px;
   }
 }
-@media screen and (max-width: 970px) {
-  .bannersBlock__wrapper {
-	width: 160px;
-  height: 210px;
-	border-radius: 10px;
-	margin: 7px;
-  }
-}
-@media screen and (max-width: 720px) {
-  .bannersBlock__wrapper {
-	width: 130px;
-  height: 160px;
-	border-radius: 10px;
-	margin: 5px;
-  }
-}
+
 @media screen and (max-width: 560px) {
   .bannersBlock__wrapper {
-	width: 190px;
-  height: 250px;
-	border-radius: 10px;
+    width: 190px;
+    height: 250px;
+    border-radius: 10px;
   }
 }
+@media screen and (max-width: 320px) {
+  .bannersBlock__wrapper {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+  }
+}
+
 .bannersBlock__img {
-	position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-	
 }
 
 .bannersBlock__pic {
-	width: 100%;
+  width: 100%;
   height: 100%;
-	transition: 1s;
+  transition: 1s;
 }
 
 .bannersBlock__pic:hover {
@@ -82,9 +72,22 @@
 }
 
 .bannersBlock__title {
-	position: absolute;
-	z-index: 98;
-	left: 30px;
-	top: 10px;
-	color: #ffffff
+  font-size: 16px;
+  line-height: 18px;
+  position: absolute;
+  z-index: 98;
+  left: 5%;
+  top: 3%;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 560px) {
+  .bannersBlock__title {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .bannersBlock__title {
+    font-size: 12.5px;
+  }
 }

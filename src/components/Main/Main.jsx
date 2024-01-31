@@ -3,7 +3,7 @@
 
 import Slider from '../Slider/Slider';
 import Banners from '../Banners/Banners';
-import SliderBrandBottom from '../SliderBrandBottom/SliderBrandBottom';
+import SliderBrand from '../SliderBrand/SliderBrand';
 import TizersList from '../TizersList/TizersList';
 
 import './Main.css';
@@ -17,7 +17,7 @@ function Main() {
       </h1>
       <Slider />
       <Banners />
-      <SliderBrandBottom />
+      <SliderBrand />
       <TizersList />
       {/* <ul className="main__swapper">
 			<CardSirop />

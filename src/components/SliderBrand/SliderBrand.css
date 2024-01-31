@@ -1,4 +1,4 @@
-.sliderBrandBottom {
+.sliderBrand {
   max-width: 1500px;
   width: 100%;
   height: 60px;
@@ -9,7 +9,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 @media screen and (max-width: 1000px) {
-  .sliderBrandBottom {
+  .sliderBrand {
     max-width: 800px;
     width: 100%;
     height: 60px;

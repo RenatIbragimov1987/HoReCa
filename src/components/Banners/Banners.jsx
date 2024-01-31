@@ -9,7 +9,7 @@ function Banners() {
   return (
     <div className="bannersBlock">
       <div className='bannersBlock__wrapper'>
-				<div><span className='bannersBlock__title'>Посуда</span></div>
+				<span className='bannersBlock__title'>Посуда</span>
         <div className="bannersBlock__img">
           <img className="bannersBlock__pic" src={dishes} alt="img" />
         </div>
@@ -17,14 +17,14 @@ function Banners() {
       </div>
 			
       <div className='bannersBlock__wrapper'>
-				<div><span className='bannersBlock__title'>Стекло</span></div>
+				<span className='bannersBlock__title'>Стекло</span>
         <div className="bannersBlock__img">
           <img className="bannersBlock__pic" src={nude} alt="img" />
         </div>
         
       </div>
       <div className='bannersBlock__wrapper'>
-				<div><span className='bannersBlock__title'>Кухонный инвентарь</span></div>
+				<span className='bannersBlock__title'>Кухонный инвентарь</span>
         <div className="bannersBlock__img">
           <img className="bannersBlock__pic" src={kitchen} alt="img" />
         </div>
@@ -32,7 +32,7 @@ function Banners() {
       </div>
 
       <div className='bannersBlock__wrapper'>
-				<div><span className='bannersBlock__title'>Барный инвентарь</span></div>
+				<span className='bannersBlock__title'>Барный инвентарь</span>
         <div className="bannersBlock__img">
           <img className="bannersBlock__pic" src={bar} alt="img" />
         </div>
