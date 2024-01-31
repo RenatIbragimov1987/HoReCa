@@ -6,15 +6,18 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border-bottom: 1px solid #f5f5f5;
+	border-bottom: 1.5px solid rgba(238, 159, 56);
+	padding-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 431px) {
   .header__wrapper {
-    max-width: 385px;
+    max-width: 430px;
     width: 100%;
+		margin-left: 0;
+		margin-right: 0;
   }
 }
 .header {
@@ -147,12 +150,7 @@
     height: 100%;
   }
 }
-/* @media screen and (max-width: 320px) {
-  .header__phones-wrapper {
-		max-width: 320px;
-		width: 100%;
-  }
-} */
+
 .header__connection {
   max-width: 200px;
   width: 100%;

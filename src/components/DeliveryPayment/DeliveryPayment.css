@@ -1,26 +1,38 @@
 .delivery {
-  
   max-width: 1500px;
   width: 100%;
   margin-top: 50px;
-  /* margin: 0 auto; */
   text-align: start;
-  /* background-color: #e7e1e1; */
 }
-.delivery__title {
-	font-weight: 400;
-  font-size: 28px;
+@media screen and (max-width: 900px) {
+  .delivery {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
 
+.delivery__title {
+  font-size: 28px;
+}
+@media screen and (max-width: 900px) {
+  .delivery__title {
+    font-size: 22px;
+  }
+}
 .delivery__paragraf {
-  font-weight: 400;
   font-size: 17px;
   line-height: 20px;
   border-bottom: 1.5px solid rgba(238, 159, 56);
   padding-bottom: 20px;
   margin-top: 30px;
 }
-
+@media screen and (max-width: 900px) {
+  .delivery__paragraf {
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 15px;
+  }
+}
 .delivery__bank-log {
   max-width: 180px;
   width: 100%;
@@ -39,17 +51,39 @@
   object-fit: cover;
   margin-top: 40px;
 }
+
 .delivery__transcompany-log {
   max-width: 220px;
   height: 45px;
 }
-
+@media screen and (max-width: 900px) {
+  .delivery__transcompany-log {
+    max-width: 90px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .delivery__transcompany-log {
+    max-width: 51px;
+    height: 25px;
+  }
+}
 .delivery__title-pay {
-	font-weight: 400;
   font-size: 28px;
   margin-top: 50px;
 }
-
+@media screen and (max-width: 900px) {
+  .delivery__title-pay {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+}
 .delivery__subtitle-pay {
   margin-top: 30px;
+}
+@media screen and (max-width: 900px) {
+  .delivery__subtitle-pay {
+    margin-top: 15px;
+    font-size: 14px;
+  }
 }

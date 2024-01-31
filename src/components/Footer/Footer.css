@@ -9,7 +9,7 @@
   margin-right: 10px;
   padding-top: 10px;
   color: #000000;
-  border-top: 1px solid #e9e5e5;
+  border-top: 1.5px solid rgba(238, 159, 56);
 }
 @media screen and (max-width: 431px) {
   .footer {

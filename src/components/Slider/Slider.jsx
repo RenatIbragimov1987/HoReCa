@@ -11,37 +11,22 @@ import './Slider.css';
 export default function Slider() {
   return (
     <Carousel className="slider__wrapper carousel-inner">
-      
-        <Carousel.Item  >
-          <img src={bannerRona} alt="banner" className="slider__img" />
-					<div className='carousel-indicators'></div>
-        </Carousel.Item>
-     
-      
-        <Carousel.Item  >
-          <img src={bannerBona} alt="banner" className="slider__img" />
-					
-        </Carousel.Item>
-     {/* <div className='carousel-indicators'></div> */}
-      
-        <Carousel.Item  >
-          <img src={proffsyrup} alt="banner" className="slider__img" />
-				
-        </Carousel.Item>
-     	{/* <div className='carousel-indicators'></div> */}
-      
-        <Carousel.Item  >
-          <img src={monin} alt="banner" className="slider__img" />
-					
-        </Carousel.Item>
-     {/* <div className='carousel-indicators'></div> */}
-      
-        <Carousel.Item className="slider" >
-          <img src={sale} alt="banner" className="slider__img" />
-					
-        </Carousel.Item>
-				
-      {/* <div className='carousel-indicators'></div> */}
+      <Carousel.Item>
+        <img src={bannerRona} alt="banner" className="slider__img" />
+        <div className="carousel-indicators"></div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={bannerBona} alt="banner" className="slider__img" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={proffsyrup} alt="banner" className="slider__img" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={monin} alt="banner" className="slider__img" />
+      </Carousel.Item>
+      <Carousel.Item className="slider">
+        <img src={sale} alt="banner" className="slider__img" />
+      </Carousel.Item>
     </Carousel>
   );
 }

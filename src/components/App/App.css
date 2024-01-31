@@ -8,9 +8,9 @@
   flex-wrap: wrap;
   background-color: #ffffff;
 }
-@media screen and (max-width: 431px) {
+/* @media screen and (max-width: 431px) {
   .App {
     max-width: 430px;
     width: 100%;
   }
-}
+} */
