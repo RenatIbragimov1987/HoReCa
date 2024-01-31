@@ -10,7 +10,22 @@
   margin-left: 10px;
   margin-right: 10px;
 }
-
+@media screen and (max-width: 431px) {
+  .main {
+		max-width: 430px;
+  width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		
+  }
+}
+@media screen and (max-width: 391px) {
+  .main {
+		max-width: 390px;
+  width: 100%;
+		
+  }
+}
 .main__title {
   font-weight: 400;
   font-size: 24px;
@@ -26,6 +41,13 @@
 		font-size: 17px;
 		line-height: 21px;
 		max-width: 420px;
-		border-radius: 4px;
+		border-radius: 5px;
+  }
+}
+@media screen and (max-width: 431px) {
+  .main__title {
+		font-size: 15px;
+		line-height: 18px;
+		max-width: 385px;
   }
 }

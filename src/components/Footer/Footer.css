@@ -7,14 +7,19 @@
   margin-top: auto;
   margin-left: 10px;
   margin-right: 10px;
+  padding-top: 10px;
   color: #000000;
-	border-top: 1px solid #e9e5e5;
+  border-top: 1px solid #e9e5e5;
 }
-/* @media screen and (max-width: 768px) {
-    .footer {
-      background-color: #ffffff;
-    }
-  } */
+@media screen and (max-width: 431px) {
+  .footer {
+    max-width: 429px;
+  width: 100%;
+	margin-left: 0;
+  margin-right: 0;
+  }
+}
+
 .footer__block {
   max-width: 1500px;
   width: 100%;
@@ -25,18 +30,29 @@
   text-align: center;
   justify-content: space-between;
 }
+
 .footer__block-log {
   max-width: 150px;
   width: 100%;
   height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
+
+
 .footer__log {
-  width: 100%;
   width: 135px;
   height: 50px;
-  align-items: center;
   vertical-align: middle;
 }
+@media screen and (max-width: 431px) {
+  .footer__log {
+    width: 100px;
+    height: 35px;
+  }
+}
+
 
 .footer__copyright {
   font-weight: 13px;
@@ -51,26 +67,71 @@
   height: 80px;
   display: flex;
   flex-direction: column;
-  align-content: space-between;
 }
+@media screen and (max-width: 431px) {
+  .footer__map {
+    max-width: 270px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer__map {
+    max-width: 170px;
+    width: 100%;
+  }
+}
+
 
 .footer__maps {
   width: 30px;
   height: 30px;
 }
+@media screen and (max-width: 431px) {
+  .footer__maps {
+    width: 23px;
+    height: 23px;
+  }
+}
+@media screen and (max-width:320px) {
+  .footer__maps {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+
 .footer__map-title {
-  font-weight: 13px;
   font-size: 15px;
   height: 30px;
   text-align: start;
   margin: 0;
 }
+@media screen and (max-width: 431px) {
+	
+  .footer__map-title {
+		max-width: 180px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer__map-title {
+    font-size: 12px;
+  }
+}
+
 
 .footer__addres {
   display: flex;
+  justify-content: space-around;
   max-width: 400px;
   width: 100%;
   max-height: 50px;
+}
+@media screen and (max-width: 431px) {
+  .footer__addres {
+		max-width:260px;
+		width: 100%;
+  }
 }
 
 .footer__maps-addres {
@@ -80,4 +141,20 @@
   text-align: start;
   font-weight: 8px;
   font-size: 11px;
+}
+@media screen and (max-width: 431px) {
+  .footer__maps-addres {
+    max-width: 120px;
+    width: 100%;
+    margin-left: 6px;
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer__maps-addres {
+    max-width: 55px;
+    width: 100%;
+    margin-left: 6px;
+    font-size: 7.6px;
+  }
 }

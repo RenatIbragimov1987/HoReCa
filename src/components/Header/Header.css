@@ -1,45 +1,45 @@
 .header__wrapper {
-	max-width: 1500px;
+  max-width: 1500px;
   width: 100%;
-	min-height: 55px;
-	height: 100%;
+  min-height: 55px;
+  height: 100%;
   display: flex;
   justify-content: center;
-	flex-wrap: wrap;
+  flex-wrap: wrap;
   border-bottom: 1px solid #f5f5f5;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 @media screen and (max-width: 390px) {
   .header__wrapper {
-		max-width: 385px;
-  width: 100%;
+    max-width: 385px;
+    width: 100%;
   }
 }
 .header {
-	max-width: 1500px;
+  max-width: 1500px;
   width: 100%;
-	min-height: 55px;
-	height: 100%;
+  min-height: 55px;
+  height: 100%;
   color: #777777;
   display: flex;
   justify-content: space-between;
   flex: 1 1 auto;
-	flex-wrap: wrap;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center;
 }
 @media screen and (max-width: 740px) {
   .header {
-		flex-direction: column;
-		align-items: start;
+    flex-direction: column;
+    align-items: start;
   }
 }
 @media screen and (max-width: 391px) {
   .header {
-		max-width: 385px;
-  width: 100%;
+    max-width: 385px;
+    width: 100%;
   }
 }
 .header__logo-wrapper {
@@ -68,33 +68,41 @@
 }
 @media screen and (max-width: 1220px) {
   .header__menu {
-		max-width: 500px;
-  	width: 100%;
+    max-width: 500px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 860px) {
   .header__menu {
-		max-width: 400px;
-  	width: 100%;
-	align-items: center;
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+    max-width: 400px;
+    width: 100%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 740px) {
   .header__menu {
-		display: flex;
-		max-width: 700px;
-  	width: 100%;
-		justify-content: start;
-		padding-top: 20px;
-		padding-bottom: 20px;
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    justify-content: start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 431px) {
+  .header__menu {
+    max-width: 430px;
+    width: 100%;
+		padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 @media screen and (max-width: 320px) {
   .header__menu {
-		max-width: 320px;
-  width: 100%;
+    max-width: 320px;
+    width: 100%;
   }
 }
 .header__nav {
@@ -106,10 +114,16 @@
   color: #000000;
   transition: color 0.2s linear;
 }
+@media screen and (max-width: 431px) {
+  .header__nav {
+		font-size: 13.5px;
+		padding-left: 7px;
+		padding-right: 7px;
+  }
+}
 @media screen and (max-width: 320px) {
   .header__nav {
-		font-size: 12px;
-  line-height: 14px;
+    font-size: 10.8px;
   }
 }
 .header__nav:hover {
@@ -126,11 +140,11 @@
 }
 @media screen and (max-width: 740px) {
   .header__phones-wrapper {
-		max-width: 300px;
-		width: 100%;
-		margin-left: 40px;
-		min-height: 65px;
-  height: 100%;
+    max-width: 300px;
+    width: 100%;
+    margin-left: 40px;
+    min-height: 65px;
+    height: 100%;
   }
 }
 /* @media screen and (max-width: 320px) {
@@ -165,5 +179,5 @@
 }
 
 nav .active {
- color: rgba(249, 62, 160, 1);
+  color: rgba(249, 62, 160, 1);
 }

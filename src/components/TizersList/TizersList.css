@@ -26,6 +26,13 @@
     margin-top: 0;
   }
 }
+@media screen and (max-width: 320px) {
+  .tizers {
+    max-width: 320px;
+    width: 100%;
+    grid-template-columns: repeat(2, 160px);
+  }
+}
 
 .tizers__block {
   max-width: 250px;
@@ -54,6 +61,13 @@
     justify-content: left;
     gap: 10px;
     text-align: left;
+  }
+}
+@media screen and (max-width: 320px) {
+  .tizers__block {
+    max-width: 170px;
+    width: 100%;
+    flex-wrap: nowrap;
   }
 }
 
