@@ -16,7 +16,7 @@ import img12 from '../../images/fotoCompany/photo_9_2024-01-27_22-45-55.jpg';
 export default function AboutCompany() {
   return (
     <div className="aboutCompany">
-      <div className="aboutCompany__block">
+      <div className="aboutCompany__text">
         <h1 className="aboutCompany__title">О компании</h1>
         <p className="aboutCompany__subtitle">
           В HORECA мы предлагаем вам не просто посуду – мы предоставляем
@@ -61,44 +61,44 @@ export default function AboutCompany() {
           alt="img"
         />
 
-        <div className="comimg">
+       
           <img className="gallery__image" src={img1} alt="img" />
-        </div>
+        
 
-        <div className="comimg">
+       
           <img className="gallery__image" src={img2} alt="img" />
-        </div>
-        <div className="comimg">
+        
+       
           <img className="gallery__image" src={img4} alt="img" />
-        </div>
-        <div className="comimg">
+        
+       
           <img className="gallery__image" src={img5} alt="img" />
-        </div>
-        <div className="comimg">
+        
+       
           <img className="gallery__image" src={img6} alt="img" />
-        </div>
-        <div className="comimg">
+        
+       
           <img className="gallery__image" src={img9} alt="img" />
-        </div>
-        <div className="comimg">
+        
+       
           <img className="gallery__image" src={img8} alt="img" />
-        </div>
-        <div className="comimg">
+        
+       
           <img className="gallery__image" src={img7} alt="img" />
-        </div>
-        <div className="comimg">
+        
+       
           <img className="gallery__image" src={img10} alt="img" />
-        </div>
-        <div className="comimg">
+        
+       
           <img className="gallery__image" src={img11} alt="img" />
-        </div>
-        <div className="comimg">
+        
+       
           <img
             className="gallery__image gallery__imageSpan-fut"
             src={img12}
             alt="img"
           />
-        </div>
+        
       </div>
     </div>
   );
