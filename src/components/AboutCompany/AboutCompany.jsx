@@ -60,21 +60,45 @@ export default function AboutCompany() {
           src={img3}
           alt="img"
         />
-        <img className="gallery__image" src={img1} alt="img" />
-        <img className="gallery__image" src={img2} alt="img" />
-        <img className="gallery__image" src={img4} alt="img" />
-        <img className="gallery__image" src={img5} alt="img" />
-        <img className="gallery__image" src={img6} alt="img" />
-        <img className="gallery__image" src={img9} alt="img" />
-        <img className="gallery__image" src={img8} alt="img" />
-        <img className="gallery__image" src={img7} alt="img" />
-        <img className="gallery__image" src={img10} alt="img" />
-        <img className="gallery__image" src={img11} alt="img" />
-        <img
-          className="gallery__image gallery__imageSpan-fut"
-          src={img12}
-          alt="img"
-        />
+
+        <div className="comimg">
+          <img className="gallery__image" src={img1} alt="img" />
+        </div>
+
+        <div className="comimg">
+          <img className="gallery__image" src={img2} alt="img" />
+        </div>
+        <div className="comimg">
+          <img className="gallery__image" src={img4} alt="img" />
+        </div>
+        <div className="comimg">
+          <img className="gallery__image" src={img5} alt="img" />
+        </div>
+        <div className="comimg">
+          <img className="gallery__image" src={img6} alt="img" />
+        </div>
+        <div className="comimg">
+          <img className="gallery__image" src={img9} alt="img" />
+        </div>
+        <div className="comimg">
+          <img className="gallery__image" src={img8} alt="img" />
+        </div>
+        <div className="comimg">
+          <img className="gallery__image" src={img7} alt="img" />
+        </div>
+        <div className="comimg">
+          <img className="gallery__image" src={img10} alt="img" />
+        </div>
+        <div className="comimg">
+          <img className="gallery__image" src={img11} alt="img" />
+        </div>
+        <div className="comimg">
+          <img
+            className="gallery__image gallery__imageSpan-fut"
+            src={img12}
+            alt="img"
+          />
+        </div>
       </div>
     </div>
   );

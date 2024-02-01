@@ -7,6 +7,8 @@
 @media screen and (max-width: 600px) {
   .aboutCompany {
 		margin-top: 30px;
+		margin-left: 5px;
+		margin-right: 5px;
   }
 }
 
@@ -16,6 +18,7 @@
   align-items: center;
   padding: 0;
   padding-right: 20px;
+	background-color: #8d8383;
 }
 .aboutCompany__title {
   text-align: start;
@@ -32,7 +35,7 @@
   max-width: 700px;
   width: 100%;
   text-indent: 30px;
-  text-align: justify;
+  text-align: start;
   margin: 0;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -51,22 +54,32 @@
 
 .aboutCompany__img {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(4, 1fr);
   row-gap: 15px;
   column-gap: 15px;
   grid-auto-flow: row dense;
+	background-color: #d3d0d0;
 }
 @media screen and (max-width: 1200px) {
   .aboutCompany__img {
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .aboutCompany__img {
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-
+.comimg {
+	width: 100%;
+  height: 300px;
+	background-color: aquamarine;
+}
+@media screen and (max-width: 431px) {
+  .comimg {
+    height: 160px;
+  }
+}
 .gallery__image {
   width: 100%;
   height: 300px;
@@ -83,7 +96,11 @@
     height: 200px;
   }
 }
-
+@media screen and (max-width: 431px) {
+  .gallery__image {
+    height: 160px;
+  }
+}
 
 
 
