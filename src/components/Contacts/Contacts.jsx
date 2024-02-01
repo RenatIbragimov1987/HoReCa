@@ -99,7 +99,7 @@ export default function Contacts() {
         <a
           target="_blank"
           rel="nofollow noreferrer"
-          href="tel:+79673902333"
+          href="https://wa.me/+79673902333"
           className="contacts__network"
         >
           <img src={whatsAppLog} alt="logo" className="contacts__network-log" />
