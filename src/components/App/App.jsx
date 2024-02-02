@@ -23,8 +23,6 @@ function App() {
 }
 
 function AppContent() {
-	
-	
   const location = useLocation();
   const isContactsPage = location.pathname === '/contacts';
 

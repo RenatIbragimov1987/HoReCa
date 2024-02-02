@@ -62,12 +62,12 @@ export default function AboutCompany() {
           </p>
         </div>
 
-        <div className="aboutCompany__img">
+        <div className="aboutCompany__image-wrapp">
           {mapCards.map((cards, index) => (
             <img
               key={index}
               onClick={() => openPopupImage(index)}
-              className="gallery__image"
+              className="aboutCompany__image"
               src={cards}
               alt="img"
             />

@@ -8,8 +8,9 @@
   right: 0;
   top: 50%;
   transform: translate(0, -50%);
-	z-index: 99;
+  z-index: 99;
 }
+
 .sideBar__nav {
   width: 35px;
   height: 35px;
@@ -20,11 +21,11 @@
   width: 35px;
   height: 35px;
   border-radius: 11px;
-	transition: width, height, 0.2s linear;;
+  transition: width, height, 0.2s linear;
 }
 
 .sideBar__icon:hover {
-	width: 40px;
+  width: 40px;
   height: 40px;
-	transition: width, height, 0.2s linear;
+  transition: width, height, 0.2s linear;
 }

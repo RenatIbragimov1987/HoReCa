@@ -14,9 +14,9 @@
 @media screen and (max-width: 431px) {
   .footer {
     max-width: 429px;
-  width: 100%;
-	margin-left: 0;
-  margin-right: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -57,7 +57,6 @@
   }
 }
 
-
 .footer__copyright {
   font-weight: 13px;
   font-size: 15px;
@@ -85,7 +84,6 @@
   }
 }
 
-
 .footer__maps {
   width: 30px;
   height: 30px;
@@ -96,13 +94,12 @@
     height: 23px;
   }
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
   .footer__maps {
     width: 15px;
     height: 15px;
   }
 }
-
 
 .footer__map-title {
   font-size: 15px;
@@ -111,9 +108,8 @@
   margin: 0;
 }
 @media screen and (max-width: 431px) {
-	
   .footer__map-title {
-		max-width: 180px;
+    max-width: 180px;
     font-size: 14px;
   }
 }
@@ -122,7 +118,6 @@
     font-size: 12px;
   }
 }
-
 
 .footer__addres {
   display: flex;
@@ -133,8 +128,8 @@
 }
 @media screen and (max-width: 431px) {
   .footer__addres {
-		max-width:260px;
-		width: 100%;
+    max-width: 260px;
+    width: 100%;
   }
 }
 

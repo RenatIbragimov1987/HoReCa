@@ -11,8 +11,8 @@
 }
 @media screen and (max-width: 431px) {
   .services {
-   padding-left: 5px;
-	 text-indent: 20px;
+    padding-left: 5px;
+    text-indent: 20px;
   }
 }
 
@@ -38,7 +38,7 @@
 }
 @media screen and (max-width: 431px) {
   .services__subtitle {
-		font-size: 15px;
+    font-size: 15px;
   }
 }
 
@@ -58,9 +58,9 @@
 }
 @media screen and (max-width: 431px) {
   .services__text {
-		font-size: 12px;
+    font-size: 12px;
     line-height: 20px;
-		margin-top: 5px;
+    margin-top: 5px;
   }
 }
 

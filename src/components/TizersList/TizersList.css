@@ -7,7 +7,6 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 @media screen and (max-width: 1000px) {
   .tizers {
     max-width: 800px;
@@ -17,7 +16,6 @@
     align-items: flex-start;
   }
 }
-
 @media screen and (max-width: 600px) {
   .tizers {
     display: grid;
@@ -54,7 +52,6 @@
   align-items: center;
   text-align: start;
 }
-
 @media screen and (max-width: 1000px) {
   .tizers__block {
     max-width: 150px;
@@ -64,7 +61,6 @@
     text-align: center;
   }
 }
-
 @media screen and (max-width: 600px) {
   .tizers__block {
     max-width: 250px;
@@ -73,10 +69,8 @@
     justify-content: left;
     gap: 10px;
     text-align: left;
-		
   }
 }
-
 @media screen and (max-width: 320px) {
   .tizers__block {
     max-width: 170px;
@@ -93,7 +87,7 @@
   .tizers__img {
     width: 30px;
     height: 30px;
-		margin-left: 10px;
+    margin-left: 10px;
   }
 }
 
@@ -106,7 +100,6 @@
   margin-left: 20px;
   padding: 0;
 }
-
 @media screen and (max-width: 1000px) {
   .tizers__text {
     margin-left: 0;

@@ -1,6 +1,3 @@
-// import { useRef, useEffect } from 'react';
-// import { register } from 'swiper/element/bundle';
-
 import Slider from '../Slider/Slider';
 import Banners from '../Banners/Banners';
 import SliderBrand from '../SliderBrand/SliderBrand';
@@ -19,15 +16,6 @@ function Main() {
       <Banners />
       <SliderBrand />
       <TizersList />
-      {/* <ul className="main__swapper">
-			<CardSirop />
-				{cards.map((card) => (
-          <Card
-            card={card}
-            key={card._id}
-          />
-        ))}
-      </ul> */}
     </main>
   );
 }

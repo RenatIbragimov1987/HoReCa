@@ -1,35 +1,31 @@
 .menuNav {
-	max-width: 1500px;
-	width: 100%;
-	background-color: #ffffff; 
-	margin: 0 auto;
+  max-width: 1500px;
+  width: 100%;
+  background-color: #ffffff;
+  margin: 0 auto;
 }
 
 .menuBlock {
-	display: flex;
-	justify-content: space-between;
-	/* align-items: center; */
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menuLink {
-	text-decoration: none;
-	display: block;
-	color: black;
-	padding: 10px;
-	position: relative;
-	/* top: 0; */
-	/* position: relative; */
+  text-decoration: none;
+  display: block;
+  color: black;
+  padding: 10px;
+  position: relative;
 }
 
 .menuTitle {
-	position: relative;
+  position: relative;
 }
 
 .menuSubtitle {
-	position: absolute;
-	z-index: 99;
+  position: absolute;
+  z-index: 99;
 }

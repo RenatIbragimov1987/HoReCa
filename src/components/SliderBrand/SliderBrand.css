@@ -35,6 +35,7 @@
     display: none;
   }
 }
+
 .alice-carousel__prev-btn-wrapper {
   width: 50px;
 }
@@ -55,6 +56,7 @@
     display: none;
   }
 }
+
 .alice-carousel__next-btn {
   max-width: 50px;
   width: 100%;

@@ -13,7 +13,7 @@ function PopupImg({ open, closePopupImage, card }) {
         >
           <img src={closeIcon} className="popup__icon" alt="logo" />
         </button>
-        <img src={card} className="popup__img"  alt="image" />
+        <img src={card} className="popup__img" alt="image" />
       </div>
     </div>
   );

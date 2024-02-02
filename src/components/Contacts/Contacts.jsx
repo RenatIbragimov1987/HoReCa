@@ -43,8 +43,8 @@ export default function Contacts() {
           </a>
           <span className="contacts__card-name">E-mail</span>
           <a
-						rel="nofollow"
-            href='mailto:info@td-horeca.ru'
+            rel="nofollow"
+            href="mailto:info@td-horeca.ru"
             className="contacts__link"
           >
             info@td-horeca.ru
