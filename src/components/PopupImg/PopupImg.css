@@ -39,15 +39,16 @@
 	right: -40px;
 	width: 32px;
 	height: 32px;
-	background-color:rgb(160, 121, 13);
+	background-color:rgb(255, 255, 255);
 	cursor: pointer;
 	border: none;
 	border-radius: 50%;
 	padding: 0;
+	opacity: 60%;
 }
 
 .popup__close-icon:hover {
-	opacity: 60%;
+	opacity: 1;
 }
 .popup__icon {
   width: 32px;
@@ -60,9 +61,4 @@
 	max-width: 75vw;
 	display: block;
 	transform: translate 50%;
-}
-
-.likeblack{
-	width: 30px;
-	height: 30px;
 }

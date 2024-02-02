@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import horecaLog from '../../images/heder-logo.svg';
+import horecaLog from '../../images/logoHoreca.jpg';
 import callLog from '../../images/call_FILL0_wght400_GRAD0_opsz24.svg';
 import mailLog from '../../images/mail_FILL0_wght400_GRAD0_opsz24.svg';
 import { NavLink } from 'react-router-dom';

@@ -1,17 +1,17 @@
 import React from 'react';
 import './DeliveryPayment.css';
-import baikal from '../../images/байкал.png';
-import pek from '../../images/пэк.jpeg';
-import cdek from '../../images/cdek-1.svg';
-import newLine from '../../images/новаялиния.png';
-import businessLine from '../../images/деловыелинии.jpeg';
-import plskargo from '../../images/плскарго.png';
-import russianPost from '../../images/почтаросс.svg.png';
-import sberbank from '../../images/sberbank.png';
-import tinkoff from '../../images/tinkoff.png';
-import vtb from '../../images/vtb.png';
-import rshb from '../../images/rshb.png';
-import magicTrans from '../../images/MagicTrans.jpg';
+import baikal from '../../images/deliveryBrands/байкал.png';
+import pek from '../../images/deliveryBrands/пэк.jpeg';
+import cdek from '../../images/deliveryBrands/cdek-1.svg';
+import newLine from '../../images/deliveryBrands/новаялиния.png';
+import businessLine from '../../images/deliveryBrands/деловыелинии.jpeg';
+import plskargo from '../../images/deliveryBrands/плскарго.png';
+import russianPost from '../../images/deliveryBrands/почтаросс.svg.png';
+import magicTrans from '../../images/deliveryBrands/MagicTrans.jpg';
+import sberbank from '../../images/bankBrands/sberbank.png';
+import tinkoff from '../../images/bankBrands/tinkoff.png';
+import vtb from '../../images/bankBrands/vtb.png';
+import rshb from '../../images/bankBrands/rshb.png';
 
 export default function DeliveryPayment() {
   return (

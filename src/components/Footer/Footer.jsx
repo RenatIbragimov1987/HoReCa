@@ -1,5 +1,5 @@
 import './Footer.css';
-import footerLog from '../../images/heder-logo.svg';
+import footerLog from '../../images/logoHoreca.jpg';
 import mapsLog from '../../images/Yandex_Maps_icon.svg';
 
 function Footer({ isContactsPage }) {

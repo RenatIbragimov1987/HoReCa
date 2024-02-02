@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import './PopupImg.css';
-import closeIcon from '../../images/CloseIcon.svg';
+import closeIcon from '../../images/closeIcon.png';
 
 function PopupImg({ open, closePopupImage, card }) {
   return (
