@@ -30,6 +30,7 @@
   height: 240px;
   object-fit: cover;
   border-radius: 10px;
+	cursor: pointer;
 }
 @media screen and (max-width: 625px) {
   .gallery__image {
@@ -51,12 +52,12 @@
 }
 
 .aboutCompany__title {
-	font-size: 28px;
+  font-size: 28px;
 }
 @media screen and (max-width: 625px) {
   .aboutCompany__title {
     font-size: 21px;
-		text-align: center;
+    text-align: center;
   }
 }
 
@@ -79,106 +80,3 @@
     line-height: 19px;
   }
 }
-/*классы запасной вариант*/
-/* .aboutCompany {
-  display: flex;
-  max-width: 1500px;
-  width: 100%;
-  margin-top: 50px;
-}
-@media screen and (max-width: 600px) {
-  .aboutCompany {
-    margin-top: 30px;
-    margin-left: 5px;
-  }
-}
-
-.aboutCompany__block {
-  max-width: 500px;
-  width: 100%;
-  align-items: center;
-  padding: 0;
-  padding-right: 20px;
-}
-
-.aboutCompany__title {
-  text-align: start;
-  font-size: 28px;
-}
-@media screen and (max-width: 600px) {
-  .aboutCompany__title {
-    font-size: 22px;
-  }
-}
-@media screen and (max-width: 470px) {
-  .aboutCompany__title {
-    margin-left: 8px;
-  }
-}
-.aboutCompany__subtitle {
-  font-size: 17px;
-  line-height: 23px;
-  max-width: 700px;
-  width: 100%;
-  text-indent: 30px;
-  text-align: start;
-  margin: 0;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  border-bottom: 1.5px solid rgba(238, 159, 56);
-}
-.aboutCompany__subtitle:last-child {
-  border-bottom: none;
-}
-@media screen and (max-width: 600px) {
-  .aboutCompany__subtitle {
-    text-indent: 9px;
-    font-size: 12px;
-    line-height: 17px;
-  }
-}
-@media screen and (max-width: 470px) {
-  .aboutCompany__subtitle {
-    font-size: 11px;
-    line-height: 16px;
-  }
-}
-.aboutCompany__img {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  row-gap: 15px;
-  column-gap: 15px;
-  grid-auto-flow: row dense;
-}
-@media screen and (max-width: 1200px) {
-  .aboutCompany__img {
-    grid-template-columns: auto auto;
-  }
-}
-@media screen and (max-width: 600px) {
-  .aboutCompany__img {
-    grid-template-columns: auto auto;
-  }
-}
-
-.gallery__image {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-@media screen and (max-width: 768px) {
-  .gallery__image {
-    height: 250px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .gallery__image {
-    height: 200px;
-  }
-}
-@media screen and (max-width: 470px) {
-  .gallery__image {
-    height: 150px;
-  }
-} */
