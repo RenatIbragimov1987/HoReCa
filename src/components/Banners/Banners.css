@@ -3,7 +3,6 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
 @media screen and (max-width: 980px) {
   .bannersBlock {
@@ -42,20 +41,15 @@
     border-radius: 10px;
   }
 }
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 450px) {
   .bannersBlock__wrapper {
-    width: 175px;
+    max-width: 175px;
+		width: 100%;
     height: 230px;
     border-radius: 10px;
   }
 }
-@media screen and (max-width: 320px) {
-  .bannersBlock__wrapper {
-    width: 150px;
-    height: 200px;
-    border-radius: 10px;
-  }
-}
+
 
 .bannersBlock__img {
   position: absolute;

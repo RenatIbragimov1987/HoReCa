@@ -13,11 +13,7 @@
   float: left;
   width: 40vw;
   text-align: start;
-}
-@media screen and (max-width: 485px) {
-  .aboutCompany__text {
-    padding-left: 5px;
-  }
+	padding-left: 5px;
 }
 
 .aboutCompany__image-wrapp {
@@ -36,19 +32,19 @@
   cursor: pointer;
 }
 @media screen and (max-width: 625px) {
-  .gallery__image {
+  .aboutCompany__image {
     width: 140px;
     height: 200px;
   }
 }
 @media screen and (max-width: 485px) {
-  .gallery__image {
+  .aboutCompany__image {
     width: 240px;
     height: 120px;
   }
 }
 @media screen and (max-width: 391px) {
-  .gallery__image {
+  .aboutCompany__image {
     width: 200px;
     height: 130px;
   }
