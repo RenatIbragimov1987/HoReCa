@@ -10,7 +10,7 @@ function Sidebar({ isContactsPage }) {
         <>
           <a
             target="_blank"
-            href="https://wa.me/+79673902333?text=Здравствуйте!%20Пишу%20вам%20с%20сайта%20td-horeca.ru\n\n"
+            href="https://wa.me/+79673902333?text=Здравствуйте!%20Пишу%20вам%20с%20сайта%20td-horeca.ru%20 \n\n"
             rel="nofollow noreferrer"
             className="sideBar__nav"
           >
