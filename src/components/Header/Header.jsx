@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './Header.css';
 import horecaLog from '../../images/logoHoreca.jpg';
@@ -38,7 +39,7 @@ function Header({ isContactsPage }) {
                 +7 (967) 390-23-33
               </a>
               <a
-                rel="nofollow"
+                rel="nofollow noreferrer"
                 href="mailto:info@td-horeca.ru"
                 className="header__connection"
               >

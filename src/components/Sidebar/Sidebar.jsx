@@ -10,7 +10,7 @@ function Sidebar({ isContactsPage }) {
         <>
           <a
             target="_blank"
-            href="https://wa.me/+79673902333"
+            href="https://wa.me/+79673902333?subject=Здравствуйте! Пишу с сайта td-horeca.ru"
             rel="nofollow noreferrer"
             className="sideBar__nav"
           >
@@ -19,7 +19,7 @@ function Sidebar({ isContactsPage }) {
           <a
             target="_blank"
             rel="nofollow noreferrer"
-            href="https://telegram.me/td_horeca"
+            href="https://telegram.me/td_horeca?subject=Здравствуйте! Пишу с сайта td-horeca.ru"
             className="sideBar__nav"
           >
             <img src={telegram} alt="logo" className="sideBar__icon" />
