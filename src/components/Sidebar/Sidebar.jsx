@@ -4,6 +4,9 @@ import telegram from '../../images/telegram.svg';
 import whatsApp from '../../images/whatsApp.svg';
 
 function Sidebar({ isContactsPage }) {
+	const subject = "Здравствуйте! Пишу с сайта td-horeca.ru";
+const encodedSubject = encodeURIComponent(subject);
+const href = `https://telegram.me/td_horeca?subject=${encodedSubject}`;
   return (
     <div className="sideBar">
       {!isContactsPage === true && (
@@ -19,7 +22,7 @@ function Sidebar({ isContactsPage }) {
           <a
             target="_blank"
             rel="nofollow noreferrer"
-            href="https://telegram.me/td_horeca?subject=Здравствуйте! Пишу с сайта td-horeca.ru"
+            href={href}
             className="sideBar__nav"
           >
             <img src={telegram} alt="logo" className="sideBar__icon" />
