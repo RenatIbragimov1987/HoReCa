@@ -19,7 +19,7 @@ function Sidebar({ isContactsPage }) {
           <a
             target="_blank"
             rel="nofollow noreferrer"
-            href="https://telegram.me/td_horeca?start=Здравствуйте!%20Пишу%20вам%20с%20сайта%20td-horeca.ru"
+            href="https://telegram.me/td_horeca?text=Здравствуйте!%20Пишу%20вам%20с%20сайта%20td-horeca.ru"
             className="sideBar__nav"
           >
             <img src={telegram} alt="logo" className="sideBar__icon" />
