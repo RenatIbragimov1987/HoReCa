@@ -45,11 +45,8 @@ export default function DeliveryPayment() {
           Линии" и "Почта России".
         </p>
         <div className="delivery__transcompany">
-<<<<<<< HEAD
-				<ul className="delivery__transcompany-list">
-=======
+
           <ul className="delivery__transcompany-list">
->>>>>>> 09339cd77278831b16e63f845f44514a6d5f41d3
             <li className="delivery__transcompany-item">
               <img
                 src={magicTrans}
