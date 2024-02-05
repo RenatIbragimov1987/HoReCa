@@ -35,5 +35,5 @@ function Banners() {
     </section>
   );
 }
-
+ 
 export default Banners;
