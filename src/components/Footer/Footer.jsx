@@ -27,16 +27,6 @@ function Footer({ isContactsPage }) {
               <p className="footer__maps-addres">
                 г. Махачкала, просп. Гамидова, 8А
               </p>
-              <a
-                target="_blank"
-                href="https://yandex.ru/maps/-/CDu8uZ9v"
-                rel="nofollow noreferrer"
-              >
-                <img src={mapsLog} alt="logo" className="footer__maps" />
-              </a>
-              <p className="footer__maps-addres">
-                г. Дербент, улица 345-й Дагестанской Стрелковой Дивизии 6Г
-              </p>
             </div>
           </div>
         )}

@@ -7,6 +7,7 @@ import clockLogo from '../../images/Tilda_Icons_11mu_clock.svg';
 import mapsLog from '../../images/Yandex_Maps_icon.svg';
 import whatsAppLog from '../../images/whatsApp.svg';
 import telegrammLog from '../../images/telegram.svg';
+import insta from '../../images/insta.svg';
 
 export default function Contacts() {
   return (
@@ -67,18 +68,6 @@ export default function Contacts() {
             </a>
             <p className="contacts__text">г. Махачкала, просп. Гамидова, 8А</p>
           </div>
-          <div className="contacts__adress">
-            <a
-              target="_blank"
-              href="https://yandex.ru/maps/-/CDu8uZ9v"
-              rel="noopener noreferrer"
-            >
-              <img src={mapsLog} alt="logo" className="contacts__maps" />
-            </a>
-            <p className="contacts__text">
-              г. Дербент, улица 345-й Дагестанской Стрелковой Дивизии 6Г
-            </p>
-          </div>
         </div>
         <div className="contacts__block">
           <img className="contacts__logo" src={clockLogo} alt="img" />
@@ -107,6 +96,18 @@ export default function Contacts() {
           className="contacts__network"
         >
           <img src={whatsAppLog} alt="logo" className="contacts__network-log" />
+        </a>
+				<a
+          target="_blank"
+          rel="nofollow noreferrer"
+          href="https://www.instagram.com/ho_re_ca"
+          className="contacts__network"
+        >
+          <img
+            src={insta}
+            alt="logo"
+            className="contacts__network-log"
+          />
         </a>
       </div>
     </section>

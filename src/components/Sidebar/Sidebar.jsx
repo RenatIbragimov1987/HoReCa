@@ -2,6 +2,7 @@ import './Sidebar.css';
 import call from '../../images/call.svg';
 import telegram from '../../images/telegram.svg';
 import whatsApp from '../../images/whatsApp.svg';
+import insta from '../../images/insta.svg';
 
 function Sidebar({ isContactsPage }) {
   return (
@@ -26,6 +27,14 @@ function Sidebar({ isContactsPage }) {
           </a>
           <a rel="nofollow" href="tel:+79673902333" className="sideBar__nav">
             <img src={call} alt="logo" className="sideBar__icon" />
+          </a>
+					<a
+            target="_blank"
+            href="https://www.instagram.com/ho_re_ca"
+            rel="nofollow noreferrer"
+            className="sideBar__nav"
+          >
+            <img src={insta} alt="logo" className="sideBar__icon" />
           </a>
         </>
       )}
