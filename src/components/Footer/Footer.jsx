@@ -35,7 +35,7 @@ function Footer({ isContactsPage }) {
                 <img src={mapsLog} alt="logo" className="footer__maps" />
               </a>
               <p className="footer__maps-addres">
-                г. Дербент, улица 345-й Дагестанской Стрелковой Дивизии 6Г
+                г. Дербент, улица 345-й агестанской Стрелковой Дивизии 6Г
               </p>
             </div>
           </div>
