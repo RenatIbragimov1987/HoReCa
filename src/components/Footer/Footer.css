@@ -7,6 +7,11 @@
   margin-top: auto;
   padding-top: 10px;
   color: #000000;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	/* margin-left: 5px;
+	margin-right: 5px; */
   border-top: 1.5px solid rgba(238, 159, 56);
 }
 @media screen and (max-width: 431px) {
@@ -37,16 +42,18 @@
   flex-direction: column;
   align-items: start;
 }
-@media screen and (max-width: 431px) {
+/* @media screen and (max-width: 431px) {
   .footer__block-log {
     margin-left: 4px;
   }
-}
+} */
 
 .footer__log {
   width: 135px;
   height: 50px;
-  vertical-align: middle;
+	object-fit: fill;
+  /* vertical-align: middle; */
+
 }
 @media screen and (max-width: 431px) {
   .footer__log {
