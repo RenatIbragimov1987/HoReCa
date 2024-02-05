@@ -103,6 +103,11 @@
 }
 @media screen and (max-width: 475px) {
   .header__menu {
+<<<<<<< HEAD
+=======
+    /* max-width: 430px;
+    width: 100%; */
+>>>>>>> 09339cd77278831b16e63f845f44514a6d5f41d3
     width: 100%;
     justify-content: space-around;
     padding-top: 10px;

@@ -70,7 +70,10 @@
     height: 25px;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 09339cd77278831b16e63f845f44514a6d5f41d3
 .delivery__transcompany {
   margin-top: 40px;
   text-indent: 0;
@@ -82,7 +85,10 @@
   padding: 0;
   list-style: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 09339cd77278831b16e63f845f44514a6d5f41d3
 .delivery__transcompany-list {
   display: flex;
   justify-content: space-between;
