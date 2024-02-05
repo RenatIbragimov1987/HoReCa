@@ -17,7 +17,7 @@ export default function DeliveryPayment() {
   return (
     <section className="delivery">
       <h1 className="delivery__title">Доставка</h1>
-      <article className="delivery__paragraf">
+      <div className="delivery__paragraph">
         <p>
           Бесплатно доставим заказ стоимостью от 5000 руб по городу Махачкала.
         </p>
@@ -45,40 +45,79 @@ export default function DeliveryPayment() {
           Линии" и "Почта России".
         </p>
         <div className="delivery__transcompany">
-          <img
-            src={magicTrans}
-            alt="log"
-            className="delivery__transcompany-log"
-          />
-          <img src={baikal} alt="log" className="delivery__transcompany-log" />
-          <img src={pek} alt="log" className="delivery__transcompany-log" />
-          <img src={cdek} alt="log" className="delivery__transcompany-log" />
-          <img src={newLine} alt="log" className="delivery__transcompany-log" />
-          <img
-            src={plskargo}
-            alt="log"
-            className="delivery__transcompany-log"
-          />
-          <img
-            src={businessLine}
-            alt="log"
-            className="delivery__transcompany-log"
-          />
-          <img
-            src={russianPost}
-            alt="log"
-            className="delivery__transcompany-log"
-          />
+				<ul className="delivery__transcompany-list">
+            <li className="delivery__transcompany-item">
+              <img
+                src={magicTrans}
+                alt="log"
+                className="delivery__transcompany-log"
+              />
+            </li>
+            <li className="delivery__transcompany-item">
+              <img
+                src={baikal}
+                alt="log"
+                className="delivery__transcompany-log"
+              />
+            </li>
+            <li className="delivery__transcompany-item">
+              <img src={pek} alt="log" className="delivery__transcompany-log" />
+            </li>
+            <li className="delivery__transcompany-item">
+              <img
+                src={cdek}
+                alt="log"
+                className="delivery__transcompany-log"
+              />
+            </li>
+            <li className="delivery__transcompany-item">
+              <img
+                src={newLine}
+                alt="log"
+                className="delivery__transcompany-log"
+              />
+            </li>
+            <li className="delivery__transcompany-item">
+              <img
+                src={plskargo}
+                alt="log"
+                className="delivery__transcompany-log"
+              />
+            </li>
+            <li className="delivery__transcompany-item">
+              <img
+                src={businessLine}
+                alt="log"
+                className="delivery__transcompany-log"
+              />
+            </li>
+
+            <li className="delivery__transcompany-item">
+              <img
+                src={russianPost}
+                alt="log"
+                className="delivery__transcompany-log"
+              />
+            </li>
+          </ul>
         </div>
-      </article>
+      </div>
       <h1 className="delivery__title-pay">Оплата</h1>
       <p className="delivery__subtitle-pay">Наличный и безналичный расчет.</p>
-      <div className="delivery__bank-log">
-        <img src={sberbank} alt="log" className="delivery__img" />
-        <img src={tinkoff} alt="log" className="delivery__img" />
-        <img src={vtb} alt="log" className="delivery__img" />
-        <img src={rshb} alt="log" className="delivery__img" />
-      </div>
+      <ul className="delivery__bank-block">
+        <li>
+          <img src={sberbank} alt="log" className="delivery__img" />
+        </li>
+        <li>
+          <img src={tinkoff} alt="log" className="delivery__img" />
+        </li>
+        <li>
+          <img src={vtb} alt="log" className="delivery__img" />
+        </li>
+        <li>
+          <img src={rshb} alt="log" className="delivery__img" />
+        </li>
+      </ul>
     </section>
   );
 }

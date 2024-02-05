@@ -10,7 +10,7 @@ import telegrammLog from '../../images/telegram.svg';
 
 export default function Contacts() {
   return (
-    <div className="contacts">
+    <section className="contacts">
       <h1 className="contacts__title">Контакты</h1>
       <p className="contacts__paragraf">
         Дорогие покупатели! Мы будем рады помочь и подсказать вам по всем
@@ -23,27 +23,27 @@ export default function Contacts() {
         <div className="contacts__block">
           <a
             className="contacts__img_dec"
-            rel="nofollow"
+            rel="noopener noreferrer"
             href="tel:+79673902333"
           >
             <img className="contacts__logo" src={phoneLogo} alt="img" />
           </a>
           <span className="contacts__card-name">Телефон</span>
-          <a rel="nofollow" href="tel:+79673902333" className="contacts__link">
+          <a rel="noopener noreferrer" href="tel:+79673902333" className="contacts__link">
             +7 (967) 390-23-33
           </a>
         </div>
         <div className="contacts__block">
           <a
             className="contacts__img_dec"
-            rel="nofollow"
+            rel="noopener noreferrer"
             href="mailto:info@td-horeca.ru"
           >
             <img className="contacts__logo" src={mailLogo} alt="img" />
           </a>
           <span className="contacts__card-name">E-mail</span>
           <a
-            rel="nofollow"
+            rel="noopener noreferrer"
             href="mailto:info@td-horeca.ru"
             className="contacts__link"
           >
@@ -57,7 +57,7 @@ export default function Contacts() {
             <a
               target="_blank"
               href="https://yandex.ru/maps/-/CDuffO6h"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <img src={mapsLog} alt="logo" className="contacts__maps" />
             </a>
@@ -67,7 +67,7 @@ export default function Contacts() {
             <a
               target="_blank"
               href="https://yandex.ru/maps/-/CDu8uZ9v"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <img src={mapsLog} alt="logo" className="contacts__maps" />
             </a>
@@ -105,6 +105,6 @@ export default function Contacts() {
           <img src={whatsAppLog} alt="logo" className="contacts__network-log" />
         </a>
       </div>
-    </div>
+    </section>
   );
 }
