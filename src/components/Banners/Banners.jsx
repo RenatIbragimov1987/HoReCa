@@ -7,32 +7,32 @@ import nude from '../../images/banners/nude.jpg';
 
 function Banners() {
   return (
-    <div className="bannersBlock">
+    <section className="bannersBlock">
       <div className="bannersBlock__wrapper">
-        <span className="bannersBlock__title">Посуда</span>
+        <h2 className="bannersBlock__title">Посуда</h2>
         <div className="bannersBlock__img">
           <img className="bannersBlock__pic" src={dishes} alt="img" />
         </div>
       </div>
       <div className="bannersBlock__wrapper">
-        <span className="bannersBlock__title">Стекло</span>
+        <h2 className="bannersBlock__title">Стекло</h2>
         <div className="bannersBlock__img">
           <img className="bannersBlock__pic" src={nude} alt="img" />
         </div>
       </div>
       <div className="bannersBlock__wrapper">
-        <span className="bannersBlock__title">Кухонный инвентарь</span>
+        <h2 className="bannersBlock__title">Кухонный инвентарь</h2>
         <div className="bannersBlock__img">
           <img className="bannersBlock__pic" src={kitchen} alt="img" />
         </div>
       </div>
       <div className="bannersBlock__wrapper">
-        <span className="bannersBlock__title">Барный инвентарь</span>
+        <h2 className="bannersBlock__title">Барный инвентарь</h2>
         <div className="bannersBlock__img">
           <img className="bannersBlock__pic" src={bar} alt="img" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -5,7 +5,7 @@ import whatsApp from '../../images/whatsApp.svg';
 
 function Sidebar({ isContactsPage }) {
   return (
-    <div className="sideBar">
+    <aside className="sideBar">
       {!isContactsPage === true && (
         <>
           <a
@@ -29,7 +29,7 @@ function Sidebar({ isContactsPage }) {
           </a>
         </>
       )}
-    </div>
+    </aside>
   );
 }
 

@@ -6,7 +6,7 @@ import discount from '../../images/tizers/discount.svg';
 
 export default function TizersList() {
   return (
-    <div className="tizers">
+    <section className="tizers">
       <div className="tizers__block">
         <img className="tizers__img" src={delivery} alt="pic" />
         <p className="tizers__text">Быстрая доставка</p>
@@ -23,6 +23,6 @@ export default function TizersList() {
         <img className="tizers__img" src={affordablePrices} alt="pic" />
         <p className="tizers__text">Доступные цены</p>
       </div>
-    </div>
+    </section>
   );
 }

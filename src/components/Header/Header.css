@@ -101,11 +101,12 @@
     padding-bottom: 20px;
   }
 }
-@media screen and (max-width: 431px) {
+@media screen and (max-width: 475px) {
   .header__menu {
-    max-width: 430px;
+    /* max-width: 430px;
+    width: 100%; */
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -125,7 +126,7 @@
   color: #000000;
   transition: color 0.2s linear;
 }
-@media screen and (max-width: 431px) {
+@media screen and (max-width: 475px) {
   .header__nav {
     font-size: 13.5px;
     padding-left: 0;
