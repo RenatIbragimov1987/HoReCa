@@ -1,5 +1,5 @@
 import './Footer.css';
-import footerLog from '../../images/logoHoreca.jpg';
+import footerLog from '../../images/logoHorecaFooter.jpg';
 import mapsLog from '../../images/Yandex_Maps_icon.svg';
 
 function Footer({ isContactsPage }) {
@@ -9,7 +9,7 @@ function Footer({ isContactsPage }) {
       <div className="footer__block">
         <div className="footer__block-log">
           <img src={footerLog} alt="logo" className="footer__log" />
-          <p className="footer__copyright">"td-Horeca"{year}&copy;</p>
+          <p className="footer__copyright">"td-horeca"{year}&copy;</p>
         </div>
         {isContactsPage ? (
           false
