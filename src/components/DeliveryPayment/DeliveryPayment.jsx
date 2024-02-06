@@ -45,7 +45,6 @@ export default function DeliveryPayment() {
           Линии" и "Почта России".
         </p>
         <div className="delivery__transcompany">
-
           <ul className="delivery__transcompany-list">
             <li className="delivery__transcompany-item">
               <img

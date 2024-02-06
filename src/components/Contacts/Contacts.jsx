@@ -29,7 +29,11 @@ export default function Contacts() {
             <img className="contacts__logo" src={phoneLogo} alt="img" />
           </a>
           <span className="contacts__card-name">Телефон</span>
-          <a rel="noopener noreferrer" href="tel:+79673902333" className="contacts__link">
+          <a
+            rel="noopener noreferrer"
+            href="tel:+79673902333"
+            className="contacts__link"
+          >
             +7 (967) 390-23-33
           </a>
         </div>

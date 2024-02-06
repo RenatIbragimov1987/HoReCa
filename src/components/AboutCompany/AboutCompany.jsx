@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PopupImg from '../PopupImg/PopupImg';
-import mapCards from '../../utils/mapCardsForCompany/mapsCardCompany';
+import mapCards from '../../utils/mapsCardCompany';
 import './AboutCompany.css';
 
 export default function AboutCompany() {

@@ -13,7 +13,7 @@
   .sliderBrand {
     max-width: 800px;
     width: 100%;
-    height: 60px;
+		height: 50px;
   }
 }
 
@@ -24,11 +24,11 @@
 @media screen and (max-width: 1000px) {
   .sliderBrand__log {
     max-width: 100px;
-    height: 60px;
+		height: 50px;
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 950px) {
   .alice-carousel__dots {
     display: none;
   }
@@ -56,7 +56,13 @@
 @media screen and (max-width: 450px) {
   .alice-carousel__prev-btn-wrapper,
   .alice-carousel__next-btn-wrapper {
-    height: 85%;
+    height: 96%;
+  }
+}
+@media screen and (max-width: 391px) {
+  .alice-carousel__prev-btn-wrapper,
+  .alice-carousel__next-btn-wrapper {
+    display: none;
   }
 }
 

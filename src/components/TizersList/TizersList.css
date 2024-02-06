@@ -26,7 +26,7 @@
 }
 @media screen and (max-width: 431px) {
   .tizers {
-		grid-template-columns: repeat(2, 175px);
+    grid-template-columns: repeat(2, 175px);
   }
 }
 @media screen and (max-width: 320px) {
@@ -92,8 +92,8 @@
   margin: 0;
   margin-left: 20px;
   padding: 0;
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 1000px) {
   .tizers__text {

@@ -7,9 +7,9 @@
   margin-top: auto;
   padding-top: 10px;
   color: #000000;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
   border-top: 1.5px solid rgba(238, 159, 56);
 }
 @media screen and (max-width: 431px) {
@@ -44,7 +44,7 @@
 .footer__log {
   width: 135px;
   height: 50px;
-	object-fit: fill;
+  object-fit: fill;
 }
 @media screen and (max-width: 431px) {
   .footer__log {
@@ -103,9 +103,15 @@
   text-align: start;
   margin: 0;
 }
+@media screen and (max-width: 650px) {
+  .footer__map-title {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 431px) {
   .footer__map-title {
-    max-width: 180px;
+    /* text-align: center; */
+    padding-left: 4px;
     font-size: 14px;
   }
 }
