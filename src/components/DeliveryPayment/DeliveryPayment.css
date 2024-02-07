@@ -43,7 +43,7 @@
 }
 @media screen and (max-width: 431px) {
   .delivery__paragraph {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 19px;
     text-indent: 20px;
     margin-top: 15px;
@@ -58,6 +58,11 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 431px) {
+  .delivery__bank-block {
+    padding-left: 22px;
+  }
 }
 
 .delivery__img {
@@ -134,7 +139,8 @@
 }
 @media screen and (max-width: 431px) {
   .delivery__subtitle-pay {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 19px;
+    padding-left: 22px;
   }
 }
