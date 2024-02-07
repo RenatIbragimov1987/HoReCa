@@ -9,6 +9,7 @@ import AboutCompany from '../AboutCompany/AboutCompany';
 import DeliveryPayment from '../DeliveryPayment/DeliveryPayment';
 import Contacts from '../Contacts/Contacts';
 import Services from '../Services/Services';
+import PageNotFound from '../PageNotFound/PageNotFound';
 
 import './App.css';
 
@@ -36,6 +37,7 @@ function AppContent() {
         <Route path="/delivery" element={<DeliveryPayment />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/services" element={<Services />} />
+				<Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer isContactsPage={isContactsPage} />
     </>
