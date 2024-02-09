@@ -1,0 +1,10 @@
+.App {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
